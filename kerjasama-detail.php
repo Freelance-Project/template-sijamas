@@ -182,7 +182,28 @@ var realSlider= $("ul#bxslider").bxSlider({
       
     });
 
-	if (screen.width < 960) {
+	if (screen.width < 500) {
+		var realThumbSlider=$("ul#bxslider-pager").bxSlider({
+	      minSlides: 2,
+	      maxSlides: 2,
+	      slideWidth: 156,
+	      slideMargin: 12,
+	      moveSlides: 1,
+	      pager:false,
+	      speed:1000,
+	      infiniteLoop:false,
+	      hideControlOnEnd:true,
+	      nextText:'<span></span>',
+	      prevText:'<span></span>',
+	      onSlideBefore:function($slideElement, oldIndex, newIndex){
+	        /*$j("#sliderThumbReal ul .active").removeClass("active");
+	        $slideElement.addClass("active"); */
+
+	      }
+	    });
+	    
+	}
+	else if (screen.width < 900) {
 		var realThumbSlider=$("ul#bxslider-pager").bxSlider({
 	      minSlides: 4,
 	      maxSlides: 4,
@@ -201,8 +222,8 @@ var realSlider= $("ul#bxslider").bxSlider({
 
 	      }
 	    });
-	    
 	}
+
 	else {
 
 	    var realThumbSlider=$("ul#bxslider-pager").bxSlider({

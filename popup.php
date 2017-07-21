@@ -23,16 +23,16 @@
                                         <option>Tanggal Terbaru</option>
                                       </select>
                                   </div>
-                                  <div class="col-md-5">
+                                  <div class="col-md-5 col-sm-5 col-xs-6">
                                       <div class="inner-addon right-addon">
                                         <i class="fa fa-calendar" aria-hidden="true"></i>
                                         <input type="text" class="form-control datepicker1"/>
                                       </div>
                                   </div>
-                                  <div class="col-md-2 text-center">
+                                  <div class="col-md-2 hidden-xs text-center">
                                     <span>Sampai</span>
                                   </div>
-                                  <div class="col-md-5">
+                                  <div class="col-md-5 col-sm-5 col-xs-6">
                                      <div class="inner-addon right-addon">
                                         <i class="fa fa-calendar" aria-hidden="true"></i>
                                         <input type="text" class="form-control datepicker2  "/>

@@ -1,0 +1,107 @@
+ @charset "utf-8";
+
+/*===============================================================================================================   
+
+Company     : PT Web Architect Technology - webarq.com 
+
+Author      : Muhammad Febriansyah
+
+Built       : Februari 2017
+
+=============================================================================================================== */
+
+
+
+@media all and (max-width:1023px){
+
+  
+
+    
+
+    /* header
+
+    ================================================================================================================= */
+
+    /* middle homepage
+
+    ================================================================================================================= */
+	.cols2{
+        width: 100%;
+        text-align: center;
+    }
+    .oscar_pialanya{
+        display: none;
+    }
+    .socmed a{
+        font-size: 42px;
+    }
+    .socmed{
+        width: 115px;
+    }
+    #history-section{
+        height: auto !important;
+    }
+    .img-content-timeline{
+        width: 100%;
+        margin-bottom:20px !important;
+    }
+    .captions-content-timeline{
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+    }
+    #list-fakta, #list-nomine,.row-nomine{
+        width: 100%;
+    }
+    .block3{
+        width: 100%;
+        text-align: center;
+    }
+    .left-fakta{
+        padding-right: 0;
+    }
+    .right-fakta{
+        padding-left: 0;
+    }
+    .block-middle{
+        display: none;
+    }
+    .fakta-box{
+        margin: 20px;
+    }
+    .left-fakta .border_dash,.right-fakta .border_dash{
+        display: none;
+    }
+    .icon-fakta{
+        width: 164px;
+        height: 164px;
+    }
+    .caption-fakta{
+        width: 100%;
+        padding: 10px 25px;
+    }
+    .item-nomine{
+        width: 49%;
+        text-align: center;
+    }
+    .item-nomine img{
+        max-width: 346px;
+        display: inline-block !important;
+    }
+    /* popup
+
+    ================================================================================================================= */
+
+    
+    /* middle contentpage
+
+    ================================================================================================================= */
+	
+	
+    /* footer
+
+    ================================================================================================================= */
+
+
+}
+

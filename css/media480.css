@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+/*===============================================================================================================   
+
+Author      : Muhammad Febriansyah
+
+Built       : Februari 2017
+
+=============================================================================================================== */
+
+
+
+@media all and (max-width:767px){
+
+    
+
+    /* header
+
+    ================================================================================================================= */
+    
+	
+    /* middle homepage
+
+    ================================================================================================================= */
+    .socmed a{
+        font-size: 22px;
+    }
+    .img-tokoh2{
+        display: block;
+        float: none;
+    }
+    .left-info,.right-info{
+        width: 100%;
+    }
+    .captions-content-timeline h3{
+        font-size: 24px;
+    }
+    .item-nomine{
+        width: 100%;
+    }
+    .right-judul{
+        font-size: 12px;
+    }
+    #list-fakta, #list-nomine{
+        padding: 20px;
+    }
+    .left-judul{
+        margin-bottom: 20px;
+        padding-right: 0;
+    }
+    .left-judul, .right-judul{
+        width: 100%;
+    }
+    #footer{
+        padding: 20px;
+    }
+    .back-top{
+        width: 30px;
+        height: 30px;
+    }
+    #homeSection.section-row{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .tableDisplay.cols2{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .logo-oscar{
+        padding: 0 25px;
+    }
+    /* middle contentpage
+
+    ================================================================================================================= */
+	
+	
+    /* footer
+
+    ================================================================================================================= */
+	
+	
+	
+	
+}

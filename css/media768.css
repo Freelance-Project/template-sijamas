@@ -2,11 +2,9 @@
 
 /*===============================================================================================================   
 
-Company     : PT Web Architect Technology - webarq.com 
-
 Author      : Muhammad Febriansyah
 
-Built       : Februari 2017
+Built       : Juli 2017
 
 =============================================================================================================== */
 
@@ -21,72 +19,41 @@ Built       : Februari 2017
     /* header
 
     ================================================================================================================= */
-
+    .search-top{
+        display: none;
+    }
+    #menu-desktop{
+        display: none;
+    }
+    #trigger-menu{
+        text-align: right;
+        display: inline-block;
+        border: 1px solid #fff;
+        padding: 5px 20px;
+        margin: 10px 0;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 14px;
+        border-radius: 10px;
+    }
     /* middle homepage
 
     ================================================================================================================= */
-	.cols2{
-        width: 100%;
-        text-align: center;
+    .camera_caption{
+        height: 140px;
     }
-    .oscar_pialanya{
-        display: none;
+    .isi-h-news .media-left,.right-content .big-side-news .isi-h-news .media-left{
+        height: auto;
     }
-    .socmed a{
-        font-size: 42px;
+    .carousel-bx-main .bx-wrapper .bx-next{
+        right: 10px;
+        background: url(images/controls.png) no-repeat -43px -32px;
+        top: 47%;
     }
-    .socmed{
-        width: 115px;
-    }
-    #history-section{
-        height: auto !important;
-    }
-    .img-content-timeline{
-        width: 100%;
-        margin-bottom:20px !important;
-    }
-    .captions-content-timeline{
-        width: 100%;
-        text-align: center;
-        padding-left: 0;
-    }
-    #list-fakta, #list-nomine,.row-nomine{
-        width: 100%;
-    }
-    .block3{
-        width: 100%;
-        text-align: center;
-    }
-    .left-fakta{
-        padding-right: 0;
-    }
-    .right-fakta{
-        padding-left: 0;
-    }
-    .block-middle{
-        display: none;
-    }
-    .fakta-box{
-        margin: 20px;
-    }
-    .left-fakta .border_dash,.right-fakta .border_dash{
-        display: none;
-    }
-    .icon-fakta{
-        width: 164px;
-        height: 164px;
-    }
-    .caption-fakta{
-        width: 100%;
-        padding: 10px 25px;
-    }
-    .item-nomine{
-        width: 49%;
-        text-align: center;
-    }
-    .item-nomine img{
-        max-width: 346px;
-        display: inline-block !important;
+    .carousel-bx-main .bx-wrapper .bx-prev{
+        left: 10px;
+        background: url(images/controls.png) no-repeat 0 -32px;
+        top: 47%;
     }
     /* popup
 
@@ -101,7 +68,10 @@ Built       : Februari 2017
     /* footer
 
     ================================================================================================================= */
-
+    footer .col-md-6 .right.text-right{
+        text-align: left;
+        float: left;
+    }
 
 }
 

@@ -254,6 +254,7 @@ section {
 	display: block;
 	width: 100%;
 	clear: both;
+	position: relative;
 }
 .main-menu ul{
 	padding: 0;
@@ -302,7 +303,49 @@ section {
 	font-size: 12px;
 	padding: 15px 10px
 }
+#trigger-menu,#mobile-menu{
+	display: none;
+}
+.main-menu-mobile{
+	background: #004f9b;
+	position: absolute;
+	width: 100%;
+	top: 52px;
+	left: 0;
+}
+.main-menu-mobile ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.main-menu-mobile ul li{
+	display: block;
+	padding: 10px 40px;
+	border-bottom: 1px solid #fff;
+}
+.main-menu-mobile ul li:last-child{
+	border-bottom: none;
+}
+.main-menu-mobile ul li a{
+	padding:0 20px;
+	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+	display: block;
+}
+.search-mobile{
+	background: #fff;
+	padding: 10px 40px;
+	overflow: hidden;
+}
+.search-mobile .login-mn-row
+{
+	float: left;
 
+}
+.search-mobile .search-row{
+	float: right;
+}
 /* style kontent
 ----------------------------------------------------------------------------------------------*/
 #middle-content{
@@ -529,7 +572,7 @@ section {
     margin-right: 20px;
     overflow: hidden;
 }
-.isi-h-news .media-body{
+.inline-news .isi-h-news .media-body{
 	width:45%;
 }
 .inline-news.no-image .media-body{
@@ -824,6 +867,36 @@ footer .rows{
 .address-row,.text-address,.call-row .text-call{
 	width: 80%;
 	font-size: 14px;
+}
+.camera_caption{
+	height: 105px;
+	width: 100%;
+	padding-left: 40px;
+	padding-right: 40px;
+    background: #000;
+    background: -moz-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.47) 31%,rgba(0,0,0,.7) 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(0,0,0,0)),color-stop(31%,rgba(0,0,0,.47)),color-stop(100%,rgba(0,0,0,.7)));
+    background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.47) 31%,rgba(0,0,0,.7) 100%);
+    background: -o-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.47) 31%,rgba(0,0,0,.7) 100%);
+    background: -ms-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.47) 31%,rgba(0,0,0,.7) 100%);
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.47) 31%,rgba(0,0,0,.7) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000',endColorstr='#b3000000',GradientType=0);
+}
+
+.camera_caption a:hover,.camera_caption a:focus{
+	color: #fff;
+}
+.camera_caption a:focus{
+	text-decoration: none;
+}
+.camera_caption div{
+	width: 100%;
+}
+.camera_wrap{
+	border-bottom: 30px solid #000;
+}
+.camera_pag{
+	bottom: -36px;
 }
 /* ==========================================================================
    Media Queries

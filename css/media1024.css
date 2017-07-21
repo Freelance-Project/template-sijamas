@@ -4,7 +4,7 @@
 
 Author      : Muhammad Febriansyah
 
-Built       : Februari 2017
+Built       : Juli 2017
 
 =============================================================================================================== */
 
@@ -21,21 +21,20 @@ Built       : Februari 2017
     /* middle homepage
 
     ================================================================================================================= */
-    #main-img {
-	    top: inherit;
-	    bottom: -15px;
+    .wrapper {
+	    width: 100%;
+	    margin: 0 auto;
+	    padding-left: 40px;
+	    padding-right: 40px;
 	}
-	.logo-oscar{
-		padding: 0 10px;
+	.text-logo span.text-l1{
+		font-size: 14px;
 	}
-	#list-fakta,#list-nomine{
-		width: 980px;
+	.text-logo span.text-l2{
+		font-size: 18px;
 	}
-	.row-nomine{
-		width: 100%;
-	}
-	.item-nomine{
-		width:34.33%;	
+	.text-logo span.text-l3{
+		font-size: 14px;
 	}
 	
     /* middle contentpage

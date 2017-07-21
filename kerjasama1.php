@@ -21,7 +21,7 @@
 								<div class="box-form">
 									<form>
 										<div class="row">
-											<div class="col-md-6">
+											<div class="col-md-6 col-sm-6">
 												<div class="form-group">
 					                              <label>Kategori Kerjasama</label>
 					                              <select class="form-control">
@@ -31,7 +31,7 @@
 					                              </select>
 					                            </div><!--end.form-group-->
 											</div>
-											<div class="col-md-6">
+											<div class="col-md-6 col-sm-6">
 												<div class="form-group">
 					                              <label>Bidang Fokus</label>
 					                              <select class="form-control">
@@ -43,7 +43,7 @@
 											</div>
 										</div><!--end.row-->
 										<div class="row">
-											<div class="col-md-6">
+											<div class="col-md-6 col-sm-6">
 												<div class="form-group">
 					                              <label>Jenis Kerjasama</label>
 					                              <select class="form-control">
@@ -53,7 +53,7 @@
 					                              </select>
 					                            </div><!--end.form-group-->
 											</div>
-											<div class="col-md-6">
+											<div class="col-md-6 col-sm-6">
 												<div class="form-group">
 					                              <label>Tahun Penandatanganan</label>
 					                              <select class="form-control">
@@ -65,7 +65,7 @@
 											</div>
 										</div><!--end.row-->
 										<div class="row">
-											<div class="col-md-6">
+											<div class="col-md-6 col-sm-6">
 												<div class="form-group">
 					                              <label>Status Kerjasama</label>
 					                              <select class="form-control">
@@ -75,7 +75,7 @@
 					                              </select>
 					                            </div><!--end.form-group-->
 											</div>
-											<div class="col-md-6">
+											<div class="col-md-6 col-sm-6">
 												<div class="form-group">
 					                              <label>Tahun Berakhir</label>
 					                              <select class="form-control">
@@ -91,22 +91,22 @@
 												<div class="form-group">
 					                              <label>Periode Pencarian</label>
 					                              <div class="row">
-					                                  <div class="col-md-4">
+					                                  <div class="col-md-4 col-sm-4">
 					                                      <select class="form-control">
 					                                        <option> -- Pilih Jenis Periode -- </option>
 					                                        <option>Tanggal Terbaru</option>
 					                                      </select>
 					                                  </div>
-					                                  <div class="col-md-3">
+					                                  <div class="col-md-3 col-sm-3">
 					                                      <div class="inner-addon right-addon">
 					                                        <i class="fa fa-calendar" aria-hidden="true"></i>
 					                                        <input type="text" class="form-control datepicker1"/>
 					                                      </div>
 					                                  </div>
-					                                  <div class="col-md-1 text-center">
+					                                  <div class="col-md-1 col-sm-1  text-center">
 					                                    <span>Sampai</span>
 					                                  </div>
-					                                  <div class="col-md-3">
+					                                  <div class="col-md-3 col-sm-3">
 					                                     <div class="inner-addon right-addon">
 					                                        <i class="fa fa-calendar" aria-hidden="true"></i>
 					                                        <input type="text" class="form-control datepicker2  "/>

@@ -19,6 +19,7 @@
 <!--link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"-->
 <link href="css/jquery-ui.css" rel="stylesheet" />
 <link rel="stylesheet" type="text/css" href="js/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+<link rel="stylesheet" href="css/camera.css">
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bxslider/4.1.1/jquery.bxslider.css">
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/material-kit.css">
@@ -55,15 +56,15 @@
 <header id="mainheader">
 	<div class="top-header">
 		<div class="wrapper">
-			<div class="left">
-				<div class="main-logo"><a href="#"><img  src="images/material/logo.png"></a></div>
+			<div class="left logo-top">
+				<div class="main-logo"><a href="index.php"><img  src="images/material/logo.png"></a></div>
 				<div class="text-logo">
 					<span class="text-l1">Sistem Informasi Kerjasama Standarisasi dan Penilaian Kesesuaian (SIJAMAS)</span>
 					<span class="text-l2">Badan Strandarisasi Nasional</span>
 					<span class="text-l3">National Standardization Agency of Indonesia</span>
 				</div>
 			</div><!--end.left-->
-			<div class="right text-right">
+			<div class="right text-right search-top">
 				<div class="right-head">
 					<div class="search-row">
 						<input type="text" id="search" class="form-control" name="" placeholder="Search">
@@ -80,7 +81,8 @@
 	</div><!--end.top-header-->
 	<div class="bottom-header">
 		<div class="wrapper">
-			<div class="main-menu">
+			<a href="#" id="trigger-menu">Menu</a>
+			<div id="menu-desktop" class="main-menu">
 				<ul>
 					<li><a href="index.php" <?php if($page == 'home') { echo "class=active"; } ?> >Home</a></li>
 					<li><a href="profile.php" <?php if($page == 'profile') { echo "class=active"; } ?>>Profile</a></li>
@@ -94,6 +96,32 @@
 					</li>
 					<li><a href="kontak.php" <?php if($page == 'kontak') { echo "class=active"; } ?>>Kontak Kami</a></li>
 				</ul>
+			</div>
+			<div id="mobile-menu" class="main-menu-mobile">
+				<ul>
+					<li><a href="index.php" <?php if($page == 'home') { echo "class=active"; } ?> >Home</a></li>
+					<li><a href="profile.php" <?php if($page == 'profile') { echo "class=active"; } ?>>Profile</a></li>
+					<li><a href="usulan-kerjasama.php" <?php if($page == 'usulan') { echo "class=active"; } ?>>Usulan Kerjasama</a></li>
+					<li class="sub-menu-parent">
+						<a href="#" <?php if($page == 'kerjasama') { echo "class=active"; } ?>>Kategori Kerjasama</a>
+						<ul class="sub-menu">
+				         <li><a href="kerjasama1.php">Kerjasama Dalam Negeri</a></li>
+				         <li><a href="kerjasama2.php">Kerjasama Luar Negeri</a></li>
+				       </ul>
+					</li>
+					<li><a href="kontak.php" <?php if($page == 'kontak') { echo "class=active"; } ?>>Kontak Kami</a></li>
+				</ul>
+				<div class="search-mobile">
+					<div class="login-mn-row">
+						<a href="#login" class="login popup">Login</a>
+						<a href="#forgot" class="blue_ref popup">Lupa Password?</a>
+						<a href="#pencarianLanjut" class="blue_ref popup">Pencarian Lanjutan</a>
+					</div>
+					<div class="search-row">
+						<input type="text" id="search" class="form-control" name="" placeholder="Search">
+						<a href="#" class="searchTrigger"><i class="fa fa-search" aria-hidden="true"></i></a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div><!--end.bottom-header-->

@@ -6,18 +6,12 @@
   	 <div class="camera_wrap camera_magenta_skin" id="camera_wrap_2">
   	 	<div data-src="images/content/banner-home.png">
 			<div class="camera_caption fadeFromBottom">
-	        	<h1>Limitless Solutions</h1>
-	        	<h1>For Digital Activity</h1>
-	            <p>We build smart digital strategies through a comprehensive
-research to drives a world class art results.</p>
+	            <a href="#"><p> Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like.</p></a>
       		</div><!---end.caption-->
 		</div><!--end.banner-->
 		<div data-src="images/content/banner-home.png">
 			<div class="camera_caption fadeFromBottom">
-	        	<h1>Limitless Solutions</h1>
-	        	<h1>For Digital Activity</h1>
-	            <p>We build smart digital strategies through a comprehensive
-research to drives a world class art results.</p>
+	            <a href="#"><p> Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like.</p></a>
       		</div><!---end.caption-->
 		</div><!--end.banner-->
   	 </div>

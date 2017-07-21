@@ -164,5 +164,98 @@
 	</div><!--end.page-content-->
 </div>
 <!-- end of middle -->
+<script type="text/javascript">
+	$(window).load(function(){
+ 
 
+var realSlider= $("ul#bxslider").bxSlider({
+      speed:1000,
+      pager:false,
+      nextText:'',
+      prevText:'',
+      infiniteLoop:false,
+      hideControlOnEnd:true,
+      onSlideBefore:function($slideElement, oldIndex, newIndex){
+        changeRealThumb(realThumbSlider,newIndex);
+        
+      }
+      
+    });
+
+	if (screen.width < 960) {
+		var realThumbSlider=$("ul#bxslider-pager").bxSlider({
+	      minSlides: 4,
+	      maxSlides: 4,
+	      slideWidth: 156,
+	      slideMargin: 12,
+	      moveSlides: 1,
+	      pager:false,
+	      speed:1000,
+	      infiniteLoop:false,
+	      hideControlOnEnd:true,
+	      nextText:'<span></span>',
+	      prevText:'<span></span>',
+	      onSlideBefore:function($slideElement, oldIndex, newIndex){
+	        /*$j("#sliderThumbReal ul .active").removeClass("active");
+	        $slideElement.addClass("active"); */
+
+	      }
+	    });
+	    
+	}
+	else {
+
+	    var realThumbSlider=$("ul#bxslider-pager").bxSlider({
+		mode: 'vertical',
+	      minSlides: 4,
+	      maxSlides: 4,
+	      slideWidth: 156,
+	      slideMargin: 12,
+	      moveSlides: 1,
+	      pager:false,
+	      speed:1000,
+	      infiniteLoop:false,
+	      hideControlOnEnd:true,
+	      nextText:'<span></span>',
+	      prevText:'<span></span>',
+	      onSlideBefore:function($slideElement, oldIndex, newIndex){
+	        /*$j("#sliderThumbReal ul .active").removeClass("active");
+	        $slideElement.addClass("active"); */
+
+	      }
+	    });
+	}
+	    
+    
+    
+    linkRealSliders(realSlider,realThumbSlider);
+    
+    if($("#bxslider-pager li").length<5){
+      $("#bxslider-pager .bx-next").hide();
+    }
+
+// sincronizza sliders realizzazioni
+function linkRealSliders(bigS,thumbS){
+  
+  $("ul#bxslider-pager").on("click","a",function(event){
+    event.preventDefault();
+    var newIndex=$(this).parent().attr("data-slideIndex");
+        bigS.goToSlide(newIndex);
+  });
+}
+
+//slider!=$thumbSlider. slider is the realslider
+function changeRealThumb(slider,newIndex){
+  
+  var $thumbS=$("#bxslider-pager");
+  $thumbS.find('.active').removeClass("active");
+  $thumbS.find('li[data-slideIndex="'+newIndex+'"]').addClass("active");
+  
+  if(slider.getSlideCount()-newIndex>=4)slider.goToSlide(newIndex);
+  else slider.goToSlide(slider.getSlideCount()-4);
+
+}
+
+});//]]> 
+</script>
 <?php include('inc_footer.php');?>

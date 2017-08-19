@@ -16,7 +16,7 @@
 				<div class=" col-lg-8 col-md-8">
 					<div class="left-content">
 						<div class="kerjasama-page">
-							<h3>Index Berita Kegiatan Kerjasama</h3>
+							<h3 class="page-row-title">Index Berita Kegiatan Kerjasama</h3>
 							<div class="rows">
 								<div class="box-form">
 									<form>

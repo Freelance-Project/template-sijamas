@@ -9,11 +9,6 @@
 	            <a href="#"><p> Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like.</p></a>
       		</div><!---end.caption-->
 		</div><!--end.banner-->
-		<div data-src="images/content/banner-home.png">
-			<div class="camera_caption fadeFromBottom">
-	            <a href="#"><p> Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like.</p></a>
-      		</div><!---end.caption-->
-		</div><!--end.banner-->
   	 </div>
   </section>
   <section id="bsn-middle" class="section">

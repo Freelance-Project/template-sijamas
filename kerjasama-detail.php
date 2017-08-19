@@ -29,12 +29,15 @@
 									<div class="col-md-9">
 										<div class="bx-main">
 											<ul id="bxslider">
-												<li><img src="images/content/detail-news.jpg" alt=""></li>
-												<li><img src="images/content/detail-news2.jpg" alt=""></li>
-												<li><img src="images/content/detail-news.jpg" alt=""></li>
-												<li><img src="images/content/detail-news2.jpg" alt=""></li>
-												<li><img src="images/content/detail-news.jpg" alt=""></li>
-												<li><img src="images/content/detail-news2.jpg" alt=""></li>
+												<li>
+													<img src="images/content/detail-news.jpg" alt="" title="Lorem Ipsum dolor sit amet">
+
+												</li>
+												<li><img src="images/content/detail-news2.jpg" alt="" title="Lorem Ipsum dolor sit amet"></li>
+												<li><img src="images/content/detail-news.jpg" alt="" title="Lorem Ipsum dolor sit amet"></li>
+												<li><img src="images/content/detail-news2.jpg" alt="" title="Lorem Ipsum dolor sit amet"></li>
+												<li><img src="images/content/detail-news.jpg" alt="" title="Lorem Ipsum dolor sit amet"></li>
+												<li><img src="images/content/detail-news2.jpg" alt="" title="Lorem Ipsum dolor sit amet"></li>
 			    							</ul>
 		    							</div>
 	    							</div>
@@ -62,6 +65,13 @@
 
 											<div class="profile-info-value">
 												<span>02/0219/BSN/2910/2190920</span>
+											</div>
+										</div><!--.profile-info-row-->
+										<div class="profile-info-row">
+											<div class="profile-info-name"> Judul Kerjasama : </div>
+
+											<div class="profile-info-value">
+												<span>Lorem Ipsum dolor sit </span>
 											</div>
 										</div><!--.profile-info-row-->
 										<div class="profile-info-row">
@@ -142,13 +152,26 @@
 												<span>2. Data Implementasi</span>
 											</div>
 										</div><!--.profile-info-row-->
-										<div class="profile-info-row">
+										<div class="profile-info-row full-row">
 											<div class="profile-info-name"> Tindak Lanjut Implementasi :</div>
 
 											<div class="profile-info-value">
-												<span><strong>Tanggal Implementasi:</strong> 28 April 2018</span><br>
-												<span><strong>Jenis Kegiatan:</strong> Lorem Ipsum is simply dummy text</span><br>
-												<span><strong>Keterangan:</strong> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+												<table class="table">
+													<thead>
+														<tr>
+															<th>Tangal Implementasi</th>
+															<th>Jenis Kegiatan</th>
+															<th>Keterangan</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td>28 April 2018</td>
+															<td>Lorem Ipsum is simply dummy text</td>
+															<td>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+														</tr>
+													</tbody>
+												</table>
 											</div>
 										</div><!--.profile-info-row-->
 									</div><!--.profile-user-info-->
@@ -171,6 +194,7 @@
 var realSlider= $("ul#bxslider").bxSlider({
       speed:1000,
       pager:false,
+      captions: true,
       nextText:'',
       prevText:'',
       infiniteLoop:false,

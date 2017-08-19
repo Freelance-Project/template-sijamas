@@ -9,7 +9,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>BSN</title>
+<title>SIJAMAS</title>
 <meta name="description" content="">
 
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -58,11 +58,11 @@
 		<div class="wrapper">
 			<div class="left logo-top">
 				<div class="main-logo"><a href="index.php"><img  src="images/material/logo.png"></a></div>
-				<div class="text-logo">
+				<!--div class="text-logo">
 					<span class="text-l1">Sistem Informasi Kerjasama Standarisasi dan Penilaian Kesesuaian (SIJAMAS)</span>
 					<span class="text-l2">Badan Strandarisasi Nasional</span>
 					<span class="text-l3">National Standardization Agency of Indonesia</span>
-				</div>
+				</div-->
 			</div><!--end.left-->
 			<div class="right text-right search-top">
 				<div class="right-head">

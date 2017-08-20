@@ -181,7 +181,7 @@ section {
 	width: 100%;
 	top: 0;
 	left: 0;
-	z-index: 99999;
+	z-index: 10;
 	background-color: #fff;
 }
 .top-header:after,.top-header:before{
@@ -801,9 +801,7 @@ section {
     color: #428bca;
     text-decoration: underline;
 }
-.fancybox-overlay{
-	z-index: 99999;
-}
+
 /* style Footer
 ----------------------------------------------------------------------------------------------*/
 footer{

@@ -40,54 +40,72 @@
                                   </div>
                               </div>
                             </div><!--end.form-group-->
-                            <div class="form-group">
-                              <label>Kategori Kerjasama</label>
-                              <select class="form-control">
-                                <option> -- Pilih Kategori Kerjasama -- </option>
-                                <option>Kerjasama Luar Negeri</option>
-                                <option>Kerjasama Dalam Negeri</option>
-                              </select>
-                            </div><!--end.form-group-->
-                            <div class="form-group">
-                              <label>Jenis Kerjasama</label>
-                              <select class="form-control">
-                                <option> -- Pilih Jenis Kerjasama -- </option>
-                                <option>Payung Kerjasama</option>
-                                <option>Perjanjian Pelaksana</option>
-                              </select>
-                            </div><!--end.form-group-->
-                            <div class="form-group">
-                              <label>Status Kerjasama</label>
-                              <select class="form-control">
-                                <option> -- Pilih Status Kerjasama -- </option>
-                                <option>Baru</option>
-                                <option>Lanjutan</option>
-                              </select>
-                            </div><!--end.form-group-->
-                            <div class="form-group">
-                              <label>Bidang Fokus</label>
-                              <select class="form-control">
-                                <option> -- Pilih Bidang Fokus -- </option>
-                                <option>Teknologi Informasi</option>
-                                <option>Pendidikan</option>
-                              </select>
-                            </div><!--end.form-group-->
-                            <div class="form-group">
-                              <label>Tahun Penandatanganan</label>
-                              <select class="form-control">
-                                <option> -- Pilih Tahun -- </option>
-                                <option>2011</option>
-                                <option>2012</option>
-                              </select>
-                            </div><!--end.form-group-->
-                            <div class="form-group">
-                              <label>Tahun Berakhir</label>
-                              <select class="form-control">
-                                <option> -- Pilih Tahun -- </option>
-                                <option>2017</option>
-                                <option>2018</option>
-                              </select>
-                            </div><!--end.form-group-->
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Kategori Kerjasama</label>
+                                  <select class="form-control">
+                                    <option> -- Pilih Kategori Kerjasama -- </option>
+                                    <option>Kerjasama Luar Negeri</option>
+                                    <option>Kerjasama Dalam Negeri</option>
+                                  </select>
+                                </div><!--end.form-group-->
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Jenis Kerjasama</label>
+                                  <select class="form-control">
+                                    <option> -- Pilih Jenis Kerjasama -- </option>
+                                    <option>Payung Kerjasama</option>
+                                    <option>Perjanjian Pelaksana</option>
+                                  </select>
+                                </div><!--end.form-group-->
+                              </div>
+                            </div><!--end.row-->
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Status Kerjasama</label>
+                                  <select class="form-control">
+                                    <option> -- Pilih Status Kerjasama -- </option>
+                                    <option>Baru</option>
+                                    <option>Lanjutan</option>
+                                  </select>
+                                </div><!--end.form-group-->
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Bidang Fokus</label>
+                                  <select class="form-control">
+                                    <option> -- Pilih Bidang Fokus -- </option>
+                                    <option>Teknologi Informasi</option>
+                                    <option>Pendidikan</option>
+                                  </select>
+                                </div><!--end.form-group-->
+                              </div>
+                            </div><!--end.row-->
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Tahun Penandatanganan</label>
+                                  <select class="form-control">
+                                    <option> -- Pilih Tahun -- </option>
+                                    <option>2011</option>
+                                    <option>2012</option>
+                                  </select>
+                                </div><!--end.form-group-->
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Tahun Berakhir</label>
+                                  <select class="form-control">
+                                    <option> -- Pilih Tahun -- </option>
+                                    <option>2017</option>
+                                    <option>2018</option>
+                                  </select>
+                                </div><!--end.form-group-->
+                              </div>
+                            </div><!--end.row-->
                             <div class="form-group">
                               <label>Pencarian Global</label>
                               <input type="text" class="form-control" placeholder="masukan kata pencarian">

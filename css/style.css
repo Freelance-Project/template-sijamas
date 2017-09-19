@@ -581,6 +581,14 @@ section {
     margin-right: 20px;
     overflow: hidden;
 }
+.inline-float-news .isi-h-news .images-media{
+	width: 300px;
+	padding: 5px;
+	margin-right: 10px;
+}
+.isi-h-news .media-body{
+	float: left;
+}
 .inline-news .isi-h-news .media-body{
 	width:45%;
 }
